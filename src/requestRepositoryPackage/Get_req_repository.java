@@ -7,12 +7,13 @@ import org.testng.annotations.BeforeTest;
 public class Get_req_repository {
 @BeforeTest
 	public static String baseURI() {
-		String baseURI="https://reqres.in/";
+		String baseURI="https://rickandmortyapi.com/";
 		return baseURI;
 	}
     public static String resource() {
-    	String resource="/api/users?page=2";
+    	String resource="/api/character/";
     	return resource;
     }
 }
+
 
