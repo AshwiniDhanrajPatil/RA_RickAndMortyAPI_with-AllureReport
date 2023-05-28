@@ -1,4 +1,4 @@
-package commonFunctionPackage;
+package similarFunctionPackage;
 import io.restassured.response.Response;
 
 import io.restassured.RestAssured;

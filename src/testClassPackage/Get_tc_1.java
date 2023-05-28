@@ -6,10 +6,10 @@ import java.time.LocalDateTime;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import commonFunctionPackage.API_Common_Function;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import requestRepositoryPackage.Get_req_repository;
+import similarFunctionPackage.API_Common_Function;
 
 public class Get_tc_1
 {
